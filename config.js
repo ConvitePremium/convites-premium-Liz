@@ -23,21 +23,22 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Nycolle",
+  nome: "Liz",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5588994897535",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Nycolle."
+    numero: "5511968658529
+",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Liz."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://www.google.com/maps/place/Travessuras+Buffet/@-7.213481,-39.3280364,3a,75y,243.97h,90t/data=!3m7!1e1!3m5!1swVE1nXFvUGB8Ao-ZGKSYEg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DwVE1nXFvUGB8Ao-ZGKSYEg%26yaw%3D243.9667!7i16384!8i8192!4m14!1m7!3m6!1s0x7a1820efec2ff89:0xd6c4b02555c3a45a!2sTravessuras+Buffet!8m2!3d-7.2135043!4d-39.3281053!16s%2Fg%2F11bw_62x1k!3m5!1s0x7a1820efec2ff89:0xd6c4b02555c3a45a!8m2!3d-7.2135043!4d-39.3281053!16s%2Fg%2F11bw_62x1k?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+  mapa: "https://www.google.com/maps/@-23.451182,-46.5805723,3a,75y,60.02h,65.83t/data=!3m7!1e1!3m5!1svurXXU26dTFJo_HwDhBH-w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D24.169645649598294%26panoid%3DvurXXU26dTFJo_HwDhBH-w%26yaw%3D60.02452636468114!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -49,8 +50,8 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: true,
-    manual: true,
+    dresscode: false,
+    manual: false,
     contagem: false
   },
 
