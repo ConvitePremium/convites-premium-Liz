@@ -211,9 +211,9 @@
           whatsapp:true,
           localizacao:true,
           presentes:true,
-          dresscode:false,
-          manual:false,
-          contagem:false
+          dresscode:true,
+          manual:true,
+          contagem:true
         }, CFG.telas || {}),
         textos: Object.assign(
           { abrir:"Toque para abrir", pularVideo:"Pular vídeo", voltar:"Voltar", ativarMusica:"Ativar música" },
@@ -224,12 +224,19 @@
           CFG.tema || {}
         ),
         botoesVoltar: Object.assign({
-          presentes:{mostrarTexto:true,posicao:{left:3.7,top:1.5,width:20,height:6}}
-        }, CFG.botoesVoltar || {voltar}),
+          presentes:{mostrarTexto:true,posicao:{left:3.7,top:1.5,width:20,height:6}},
+          dresscode:{mostrarTexto:true,posicao:{left:3.7,top:1.5,width:20,height:6}},
+          manual:{mostrarTexto:true,posicao:{left:3.7,top:1.5,width:20,height:6}},
+          contagem:{mostrarTexto:true,posicao:{left:3.7,top:1.5,width:20,height:6}}
+        }, CFG.botoesVoltar || {}),
         hotspots: CFG.hotspots || {
           confirm:{left:18.5,top:68.8,width:20.5,height:11.2},
           map:{left:39.5,top:68.8,width:20.5,height:11.2},
-          gift:{left:60.5,top:68.8,width:18.0,height:11.2}
+          gift:{left:60.5,top:68.8,width:18.0,height:11.2},
+          dress:{left:79.5,top:68.8,width:18.0,height:11.2},
+          manual:{left:20.0,top:82.0,width:18.0,height:10.0},
+          countdown:{left:39.5,top:82.0,width:21.0,height:10.0}
+        },
         contagem: Object.assign({
           dataEvento:"2026-12-20T19:30:00",
           textoFinal:"A festa começou!",
